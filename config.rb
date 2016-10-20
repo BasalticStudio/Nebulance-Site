@@ -24,6 +24,14 @@ configure :development do
 end
 
 ###
+# Blogs
+###
+
+activate :blog do |config|
+  config.prefix = 'blog'
+end
+
+###
 # Helpers
 ###
 
